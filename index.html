@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nhimportts — Loja de Variedades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-wrap">
+      <div class="brand">NH Imports<span class="dot">.</span></div>
+      <div class="loc-tag">📍 Maceió · AL</div>
+      <button class="cart-btn" id="openCart">
+        🛍️ Carrinho <span class="cart-badge" id="cartCount">0</span>
+      </button>
+    </div>
+    <div class="stitch"></div>
+  </header>
+
+  <section class="hero">
+    <h1>Beleza, croch&ecirc; e tech<br><em>numa loja s&oacute; </em></h1>
+    <p>Escolha seus produtos favoritos, adicione ao carrinho e finalize o pedido direto no nosso WhatsApp —
+      r&aacute;pido e sem complica&ccedil;&atilde;o.</p>
+    <div class="badges">
+      <span class="badge-pill">💄 Beleza</span>
+      <span class="badge-pill">🧶 Croch&ecirc;</span>
+      <span class="badge-pill">🔌 Tech</span>
+      <span class="badge-pill">📍 Maceió - AL</span>
+    </div>
+  </section>
+
+  <div class="stitch coral"></div>
+
+  <nav class="filters" id="filters">
+    <button class="filter-btn active" data-cat="todos">Todos</button>
+    <button class="filter-btn" data-cat="beleza">💄 Beleza</button>
+    <button class="filter-btn" data-cat="croche">🧶 Croch&ecirc;</button>
+    <button class="filter-btn" data-cat="tech">🔌 Tech</button>
+  </nav>
+
+  <main>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer>
+    Feito com carinho por <span class="fbrand">nhimportts</span> · Loja virtual de variedades · Maceió - AL
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer">
+    <div class="drawer-head">
+      <h2>Seu carrinho</h2>
+      <button class="close-btn" id="closeCart">✕</button>
+    </div>
+    <div class="drawer-items" id="drawerItems"></div>
+    <div class="drawer-footer">
+      <div class="total-row">
+        <span>Total</span>
+        <span class="amount" id="totalAmount">R$ 0,00</span>
+      </div>
+      <button class="whatsapp-btn" id="checkoutBtn" disabled>
+        📲 Finalizar pedido no WhatsApp
+      </button>
+      <p class="note-mini">Você será redirecionado ao WhatsApp com os itens já preenchidos.</p>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

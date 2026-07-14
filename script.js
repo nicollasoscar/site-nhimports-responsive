@@ -25,7 +25,7 @@ const products = [
     { id: 15, name: "Cojunto de Piranhas de Cabelo", desc: "", price: 9.99, category: "beleza", image: "images/beleza/conj_piranhas.jpg", catClass: "cat-beleza" },
     { id: 16, name: "Piranha de Cabelo Vinho", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/piranha_vinho.jpg", catClass: "cat-beleza" },
     { id: 17, name: "Piranha de Cabelo Branca", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/piranha_branca.jpg", catClass: "cat-beleza" },
-    { id: 18, name: "Presilha", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/presilha1.jpg", catClass: "cat-beleza" },
+    { id: 18, name: "Presilha", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/Presilha1.jpg", catClass: "cat-beleza" },
     { id: 19, name: "Bracelete", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/bracelete2.jpg", catClass: "cat-beleza" },
     { id: 20, name: "Lápis de Sobrancelha", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/lapis_sobr.jpg", catClass: "cat-beleza" },
     { id: 21, name: "Contorno em Bastão", desc: "Unidade", price: 9.99, category: "beleza", image: "images/beleza/contorno.jpg", catClass: "cat-beleza" },

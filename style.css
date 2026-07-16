@@ -634,3 +634,9 @@ footer .fbrand {
     top: 66px;
   }
 }
+.logo-img {
+  height: 34px;
+  width: auto;
+  display: block;
+  border-radius: 8px;
+}

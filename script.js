@@ -43,7 +43,7 @@ const products = [
     { id: 30, name: "Cropped Maat", desc: "Sob encomenda", price: 129.99, category: "croche", image: "images/croche/cropped.jpg", catClass: "cat-croche" },
 
     // ---- TECH ----
-    { id: 31, name: "Carregador Turbo para Iphone", desc: "20W", price: 34.99, category: "tech", image: "images/tech/carregador.png.PNG", catClass: "cat-tech" }
+    { id: 31, name: "Carregador Turbo para Iphone", desc: "20W", price: 34.99, category: "tech", image: "images/tech/carregador.jpg", catClass: "cat-tech" }
 ];
 
 let cart = {}; // { productId: quantity }
